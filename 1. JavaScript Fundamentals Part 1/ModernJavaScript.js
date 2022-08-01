@@ -203,8 +203,51 @@
 // console.log(myBio);
 
 // -------------------------- Spread Operator ----------------------
-let colors = ["red", "green", "pink"];
-let mycolors = ["red", "green", "pink", "Orange", "Yellow"];
+// let colors = ["red", "green", "pink"];
+// let mycolors = ["red", "green", "pink", "Orange", "Yellow"];
 
-const myFavColors = [...colors, "yellow", "black"];
-console.log(myFavColors);
+// const myFavColors = [...colors, "yellow", "black"];
+// console.log(myFavColors);
+
+// -------------------Es7 Features-----------------
+// 1. Array include
+// const colors = ["red", "green", "purple", "Orange"];
+// const isPresent1 = colors.includes("green");
+// const isPresent2 = colors.includes("white");
+// console.log(isPresent1);
+// console.log(isPresent2);
+
+// 2. Exponentiation operator
+// **
+// console.log(2 ** 3);
+
+// -------------------ES8 2017 Features---------------------
+
+// String padding
+// Object.values()
+// Object.entries()
+
+// const myBio = { name: "sujal", roll: 21053362 };
+// console.log(Object.values(myBio));
+// console.log(Object.entries(myBio));
+
+// ----------------------ES9 2018--------------------------
+// const person = { name: "Sujal", roll: 21053362 };
+// const sPerson = { ...person };
+// console.log(person);
+// console.log(sPerson);
+
+// -----------------------ES10 2019--------------------------
+// Array.prototype.{flat,flatMap}
+// Object.fromEntries();
+
+// ------------------------ES11 2020---------------------------
+// #1 BigInt
+
+// let oldNum = Number.MAX_SAFE_INTEGER;
+// console.log(oldNum);
+// // console.log(9007199254740991n + 12);
+
+// const neNum = 9007199254740991n + 12n;
+// console.log(neNum);
+// console.log(typeof neNum);
